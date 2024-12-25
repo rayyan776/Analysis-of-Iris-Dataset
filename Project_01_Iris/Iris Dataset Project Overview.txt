@@ -1,0 +1,31 @@
+Iris Dataset Project
+
+The Iris dataset's overall presentation was revolving around the idea of Understanding the analysis done so far on the dataset and sharing it with the session.
+The phases of analysis consisted of 5 phases:-
+1.EDA
+2.Feature Engineering
+3.Train Test Split
+4.Model Building
+5.Evaluation and Result
+
+EDA:
+    In EDA the basis analysis for understanding the data to support the future analyses was done.
+    Namely, describe(),head(),info(),plotting a histogram etc were few of the commands performed to know the dataset initially.
+
+Feature Engineering:
+    As far as I could understand, there was the conversion of SepalLength from Cm to M by dividing it from 100.
+    Additionally an extra column was also added for he same.
+
+Train Test Split:
+    In the phase of train test split, the data was split into some portion of size such that one major part would be used up for
+    training the data and the minority of part would be used to test the data.
+    This was done to achieve better utility in understanding while dealing with uncertain data in future
+
+Model Building:
+     In model building, a model named RandomForestClassifier was introduced and split with random_sample=42 to set the data accordingly.
+     In my understanding, this model builds sub decision trees that further trains the model.
+     One such example used was CROSS VALIDATION, is which the data was split further in to 5 more sub sets. Each of these subsets were 
+     trained and tested, yielding 5 different outputs from each set.
+
+Evaluation and Result:
+     In evaluation, the overall performance of the dataset was checked for it's credibility and the result was printed in the form of Accuracy.  
